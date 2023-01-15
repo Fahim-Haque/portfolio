@@ -21,7 +21,7 @@ a{
     font-weight: 700;
 
 }
-section{
+.top{
     display: flex;
     
 }
@@ -35,4 +35,10 @@ section{
 .top{
     background-image: url(images/top.png);
     background-repeat: no-repeat;
+}
+.dream-big{
+    display: flex;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
