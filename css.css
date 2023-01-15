@@ -1,12 +1,10 @@
 body{
-    font-family: 'Poppins', sans-serif;
-    
+    font-family: 'Poppins', sans-serif;   
 }
 h1{
-
 font-size: 50px;
 }
-#name{
+.name{
     color: orange;
 }
 body{
@@ -41,4 +39,29 @@ a{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.last{
+    display: flex;
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.exitem{
+    width: 40%;
+    margin-right: 5%;
+    margin-left: 5%;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 4px gray;
+
+}
+.orange{
+    border-left: 7px solid tomato;
+}
+.blue{
+    border-left: 7px solid blue;
+}
+footer{
+    text-align: center;
 }
